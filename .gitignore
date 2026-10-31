@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Segredos e configuração local
+.env
+
+# Editor / sistema
+.vscode/
+.idea/
+.DS_Store
+
+# Dados (nunca versionar o Olist nem a saída gerada)
+data/raw/*
+data/output/*
+!data/raw/.gitkeep
+!data/output/.gitkeep
